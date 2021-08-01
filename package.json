@@ -1,0 +1,27 @@
+{
+  "name": "waasabi-org",
+  "version": "0.0.1",
+  "description": "The Waasabi.org website",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev pages",
+    "docs:build": "vitepress build pages",
+    "docs:serve": "vitepress serve pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baytechc/waasabi.org.git"
+  },
+  "keywords": [
+    "waasabi"
+  ],
+  "author": "Flaki <git@flaki.hu>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/baytechc/waasabi.org/issues"
+  },
+  "homepage": "https://github.com/baytechc/waasabi.org#readme",
+  "dependencies": {
+    "vitepress": "^0.15.6"
+  }
+}
