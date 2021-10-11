@@ -8,7 +8,7 @@
     "docs:dev": "vitepress dev pages",
     "docs:build": "vitepress build pages",
     "docs:serve": "vitepress serve pages",
-    "code:build": "curl -sL https://api.github.com/repos/baytechc/waasabi-init/tarball | tar -xz --strip-components=1 --one-top-level=pages/.vitepress/dist/code/init@latest"
+    "code:build": "mkdir -p pages/.vitepress/dist/code/init@latest && curl -sL https://api.github.com/repos/baytechc/waasabi-init/tarball | tar -xz --strip-components=1 -C pages/.vitepress/dist/code/init@latest"
   },
   "repository": {
     "type": "git",
