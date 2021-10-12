@@ -2,16 +2,16 @@
 
 A collection of the most important components of the Waasabi suite.
 
-## `waasabi-init`
+## `waasabi-config`
 The repository for the `waasabi` tool on npm, the configuration CLI (commandline interface) of the Waasabi suite. It allows for easy bootstrapping, full customization and deployment of Waasabi instances using the `npx waasabi` shorthand command.
 
 It is built in JavaScript (node.js) and relies on LXD (Linux Containers) and ngrok for local development and test deployments.
 
-### `waasabi-installer`
+### `waasabi-init`
 
-The `waasabi-init` tool generates a configuration file that is executed in the target environment by the `waasabi-installer`.
+The configurator generates a file with various installation steps executed in the target environment by `waasabi-init`.
 
-The tool is written in JavaScript (deno) and the underlying configuration files will serve as future improvements such as a compile target for various other infrastructure provisioning dialects and DSL-s, as well as alternative ways of configuring and following the installation progress.
+This tool is written in JavaScript (Deno) and the underlying configuration files will serve as future improvements such as a compile target for various other infrastructure provisioning dialects and DSL-s, as well as alternative ways of configuring and following the installation progress.
 
 ## `strapi-template-waasabi`
 
@@ -27,7 +27,7 @@ Strapi, in it current version does not natively support exposing [lifecycle even
 
 The above is currently accomplished by providing a custom version of Strapi’s built-in GraphQL plugin that replaces the native plugin with one with rudimentary GraphQL Subscriptions support. This provides a Web Sockets-based real-time GraphQL API for the `signals` endpoint of `events-manager` which then is able to signal the frontend clients
 
-It is planned to replace this solution in the future with a purpose-built Rust service that exposes new events in `signals` using built-in support for PostgreSQL `LISTEN`/`NOTIFY` and a very focused, minimal GraphQL-subscriptions-over-Web-Sockets service implementation.
+It is planned to explore replacing this solution in the future with a purpose-built Rust service that exposes new events in `signals` using built-in support for PostgreSQL `LISTEN`/`NOTIFY` and a very focused, minimal GraphQL-subscriptions-over-Web-Sockets service implementation.
 
 This change is expected to:
 
@@ -83,4 +83,4 @@ The Peertube plugin is primarily written in JavaScript (node.js)
 
 ---
 
-> Note: this document partially supersedes the [Waasabi Project Architecture](https://waasabi.org/architecture) document published earlier as it represents a later step in the project’s evolution. That said, the original document has relevancy for historical and project direction/ideation documentation purposes and thus will be preserved until this two documents can be consolidated a single cohesive document.
+> Note: this document partially supersedes the [Waasabi Project Architecture](/architecture) document published earlier as it represents a later step in the project’s evolution. That said, the original document has relevancy for historical and project direction/ideation documentation purposes and thus will be preserved until this two documents can be consolidated a single cohesive document.
