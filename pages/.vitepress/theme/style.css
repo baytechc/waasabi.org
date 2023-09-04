@@ -1,0 +1,18 @@
+:root {
+  --vp-home-hero-name-color: green;
+}
+
+/* Hide scrollToTop for embedded pages */
+.embedded .VPLocalNav {
+  display: none !important
+}
+
+/* Format iframes of tweet embeds */
+iframe.tweet-embed {
+   width: 90%;
+   max-width: 36rem;
+   height: 50vh;
+   min-height: 20rem;
+   border: 2px solid var(--vp-c-divider);
+   margin: 2rem auto;
+}

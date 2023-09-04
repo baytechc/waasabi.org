@@ -1,4 +1,4 @@
-## What is “Waasabi”?
+# What is “Waasabi”?
 
 *Welcome to the Waasabi project's documentation!*
 
