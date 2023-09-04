@@ -38,7 +38,7 @@ IPFS is various standards around content-addressed, p2p storage. The bundle of t
 
 There are two aspects in which this technology is interesting for us, and we are going to be talking about both today: video **recordings** of content (talks, artist performances and more) and video **broadcasts**, or live streams. These two, of course, are tightly interwoven (at least conceptually), and in particular in a world of online and hybrid events, so when back in 2020 we set out to re-imagine RustFest in the online space we were baffled by the lack of tooling and innovation in this space.
 
-I won't recount our whole journey here (I've done it once [before](/news/2021-08-09-webmonetization-grant-report) for those interested), but enough to say that some of IPFS's properties seems well-suited to solve not only some of the technical challenges we were facing in the past years, but also improve on the dynamics of online communities.
+I won't recount our whole journey here (I've done it once [before](./2021-08-09-webmonetization-grant-report.md) for those interested), but enough to say that some of IPFS's properties seems well-suited to solve not only some of the technical challenges we were facing in the past years, but also improve on the dynamics of online communities.
 
 Before I go into these properties, let's address the Alphabet in the room.
 
@@ -74,7 +74,7 @@ How is this different from, say, the Internet Archive or some other organization
 
 RustFest has always been a from-the-community, for-the-community event, and all RustFest content is available after the events for the community, so this approach meshes perfectly with our ingrained principles and we are extremely excited to finalize the details of this project and get started.
 
-Before we get into the nitty-gritty of p2p streaming on IPFS, let's briefly talk about another option we have [explored earlier](/news/2021-10-11-new-peertube-backend) for this project:
+Before we get into the nitty-gritty of p2p streaming on IPFS, let's briefly talk about another option we have [explored earlier](./2021-10-11-new-peertube-backend.md) for this project:
 
 ### Peertube
 
@@ -91,7 +91,7 @@ Unsurprisingly, under the hood Peertube's revamped video transmissions also buil
 
 > _"P2P Media Loader starts to download initial media segments over HTTP(S) from source server or CDN. This allows beginning media playback faster. Also, in case of no peers, it will continue to download segments over HTTP(S) that will not differ from traditional media stream download over HTTP."_
 
-With the research done around Waasabi's P2P streaming I am now convinced that P2P live streaming is not (simply) technically challenging, but requires carefully aligning incentives — and any implementation wherein the centralized use case (=downloading from an HTTP server) provides the users with a better experience will find that the odds are stacked against the incentivization of P2P sharing (a classic example of [the tragedy of commons](https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTragedy_of_the_commons)).
+With the research done around Waasabi's P2P streaming I am now convinced that P2P live streaming is not (simply) technically challenging, but requires carefully aligning incentives — and any implementation wherein the centralized use case (=downloading from an HTTP server) provides the users with a better experience will find that the odds are stacked against the incentivization of P2P sharing (a classic example of [the tragedy of commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons)).
 
 Hence, for an ideal solution it would not only need to be technically superior or at the very least competitive with the state of the art in centralized technology (low latency HLS, LHLS, LL-DASH), but it would need to be imperative that it balances the necessarily higher barrier-of-entry of the peer-to-peer medium and providing low-barrier fallbacks for the traditional medium that doesn't ruin the system's incentives and throws the baby out with the bathwater when it tries to accomplish the original goal of reducing our reliance of centralized services & reducing the load on centrally-provisioned infrastructure.
 

@@ -3,7 +3,7 @@ export default {
   description: 'Open source framework for custom live streaming events and conferences.',
 
   themeConfig: {
-    logo: '/public/static/waasabi256.png',
+    logo: '/static/waasabi256.png',
     repo: 'https://github.com/baytechc/?q=waasabi',
     docsDir: 'pages',
 

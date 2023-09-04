@@ -8,7 +8,7 @@ Waasabi currently supports two components to provide the video streaming functio
 
 Earlier editions of the [RustFest Global](https://rustfest.global) used the MUX backend to live-stream the whole-day online conference world-wide to hundreds of people, with a final cost of a few dollars per person.
 
-![Screenshot of Waasabi at RustFest Global 2020](/static/screenshot-rustfest.jpg)
+![Screenshot of Waasabi at RustFest Global 2020](../public/static/screenshot-rustfest.jpg)
 
 ## Waasabi PeerTube backend
 
@@ -16,7 +16,7 @@ The PeerTube backend is the first supported streaming backend coming from our re
 
 Waasabi's PeerTube backend not only provides a self-contained, open source and libre solution for the live stream, but also allows the users to gain access to an emerging [Fediverse](https://fediverse.party/en/fediverse) of independent social media services.
 
-![PeerTube in action on the Waasabi live page](/static/waasabi-peertube.jpg)
+![PeerTube in action on the Waasabi live page](../public/static/waasabi-peertube.jpg)
 
 While its federated peer-to-peer nature alleviates the need for powerful dedicated hardware, ensuring stability and reliability if PeerTube instances at larger scales becomes a non-trivial issue and for large, mission-critical deployments we recommend to enlist people with sufficient expertise to manage the hardware and software internals of Waasabi & PeerTube.
 

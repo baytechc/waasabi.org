@@ -7,7 +7,7 @@ Waasabi is a customizable open-source framework for building online event experi
 
 Waasabi is [open source](https://github.com/baytechc/?q=waasabi) and is managed by the Estonian non-profit [Bay Area Tech Club](https://baytech.community/).
 
-![The Waasabi UI](/static/waasabi.jpg)
+![The Waasabi UI](../public/static/waasabi.jpg)
 
 ## Getting started
 

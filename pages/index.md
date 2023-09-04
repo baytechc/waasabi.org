@@ -6,7 +6,7 @@ hero:
   text: Event streaming framework
   tagline: Open source framework for custom live streaming events and conferences.
   image:
-    src: /public/static/waasabi256.png
+    src: /static/waasabi256.png
     alt: Waasabi logo
 
   actions:

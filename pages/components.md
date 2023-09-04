@@ -83,4 +83,4 @@ The Peertube plugin is primarily written in JavaScript (node.js)
 
 ---
 
-> Note: this document partially supersedes the [Waasabi Project Architecture](/architecture) document published earlier as it represents a later step in the project’s evolution. That said, the original document has relevancy for historical and project direction/ideation documentation purposes and thus will be preserved until this two documents can be consolidated a single cohesive document.
+> Note: this document partially supersedes the [Waasabi Project Architecture](./architecture.md) document published earlier as it represents a later step in the project’s evolution. That said, the original document has relevancy for historical and project direction/ideation documentation purposes and thus will be preserved until this two documents can be consolidated a single cohesive document.
